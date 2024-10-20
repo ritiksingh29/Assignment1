@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Rule Engine</h1>
+
+    <!-- Form for creating a rule -->
+    <h2>Create Rule</h2>
+    <form id="ruleForm">
+        <label for="rule">Enter Rule:</label>
+        <input type="text" id="rule" name="rule" required>
+        <button type="submit">Create Rule</button>
+    </form>
+    <p id="createResult"></p>
+
+    <!-- Form for evaluating rule -->
+    <h2>Evaluate Rule</h2>
+    <form id="evaluateForm">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary" required>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        <button type="submit">Evaluate Rule</button>
+    </form>
+    <p id="evaluateResult"></p>
+</body>
+</html>
